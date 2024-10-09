@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+# Script to clean, compile, and run the demo
+./clean 
+./build
+./prog > output
+./plot

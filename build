@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Script to build the demo
+g++ -o ./prog ./main.cpp -lgsl -lgslcblas -lm 

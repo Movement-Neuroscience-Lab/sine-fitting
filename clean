@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Script to clean up the executable
+if [ -f ./prog ]; then
+  rm ./prog
+fi
